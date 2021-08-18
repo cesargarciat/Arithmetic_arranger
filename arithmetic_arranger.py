@@ -1,5 +1,3 @@
-# ["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]
-
 def arithmetic_arranger(problems, results=False):      
     
     if len(problems) > 5 :
@@ -86,5 +84,3 @@ def arithmetic_arranger(problems, results=False):
     if results is True :
        arranged_problems = arranged_problems + '\n' + l4
     return arranged_problems
-
-print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
